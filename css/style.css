@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;500;600;700;800&display=swap');
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: auto;
+	margin: 0% auto;
+	font-family: 'Poppins', sans-serif;
+}
+#wrapper{
+	width: 100%;
+	height: auto;
+	margin: 0% auto;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+ul li{
+	list-style: none;
+}
+.container{
+	width: 1400px;
+	height: auto;
+	margin: 0% auto;
+	display: flow-root;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.btn{
+	padding: 15px 25px;
+	display:inline-block;
+	background: #006AFF;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.hero-bg{
+	background: #EAF6FF;
+	width: 100%;
+	margin: 0% auto;
+	display: flow-root;
+}
+/*header starts*/
+header{
+	width: 100%;
+	height: auto;
+	margin: 0% auto;
+	margin-top: 15px;
+}
+header .menu li{
+	display: inline-block;
+	
+}
+header .menu li a{
+	color: #000;
+	padding: 10px 15px;
+	display: block;
+}
+header .logo{
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase
+}
+.hero-section{
+	margin-top: 30px;
+}
+.hero-section .content{
+	padding: 40px;
+	padding-left: 0px;
+	margin-top: 125px;
+}
+.hero-section .content h1{
+	font-size: 52px;
+	font-weight: 400;
+}
+.hero-section .content h1 b{
+	color: #006AFF;
+}
+.hero-section .content p{
+	font-size: 18px;
+	color: #111;
+}
+/*header ends*/
+
+
+
+
+
+
